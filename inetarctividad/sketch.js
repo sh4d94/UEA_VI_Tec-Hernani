@@ -73,6 +73,17 @@ function keyPressed() {
   arc(cx, cy + 50, 100, 50, 0, PI);
 }
 
+//function keyReleased() {
+  //clear();
+  //resizeCanvas(windowWidth, windowHeight);
+  //background(0);
+  //fill(255);
+  //textSize(32);
+  //textAlign(CENTER, CENTER);
+  //text("Presiona las teclas de la primera línea del teclado", width / 2, height / 2 - 50);
+  //text("q, w, e, r, t, y, u, i, o, p", width / 2, height / 2 + 50);
+//}
+
 //Para reiniciar el canvas cuando se refresque la ventana
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
