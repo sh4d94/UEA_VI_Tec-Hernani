@@ -1,1 +1,1 @@
-console.log("Sí le sé, sí le sé");
+console.log("Esta es la página individual del proyecto Waifu404: Cuerpo No Encontrado.");
