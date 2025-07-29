@@ -1,70 +1,84 @@
-body{
-    background-color: rgb(0, 0, 0);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  background: #2a0032;
+  font-family: 'Courier New', monospace;
+  color: #f0f0f0;
 }
 
-h1{
-    color: rgb(255, 0, 0);
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 20px;
+header {
+  text-align: center;
+  padding: 40px 20px 10px;
+  background: #2a0032;
 }
 
-h5{
-    color: rgb(255, 255, 255);
-    font-size: 19px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-style: italic;
+h1 {
+  font-size: 3rem;
+  color: #ff00cc;
+  text-shadow: 0 0 5px #ff00cc;
 }
 
-p{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    text-align: justify;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+.tagline {
+  color: #ccc;
+  margin-top: 5px;
+  font-size: 1rem;
 }
 
-img{
-    display: block;
-    margin: 20px auto;
-    max-width: 50%;
-    height: auto;
-    border: 2px solid rgb(255, 0, 0);
-    border-radius: 10px;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
 }
 
-.derecha{
-    background-color: #000000; 
-    font-size: 10px;
-    float: left;
-    height: 800px; 
-    width: 50%;
-    text-align: center;
-    
+.card {
+  background-image: url('documentación_eje/fondos/fondo1_web3.jpg');
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px #ff00cc33;
+  transition: transform 0.3s;
+  font-size: 16px;
 }
 
-.izquierda{
-    background-color: #000000; 
-    font-size: 50px; 
-    float: left; 
-    height: 800px; 
-    width: 50%;
+.card:hover {
+  transform: translateY(-5px);
 }
 
-@media screen and (max-Width:800px){
-    .izquierda, .centro, .derecha{
-        width: 100%;
-    }
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  filter: drop-shadow(0 0 4px #ff00cc);
 }
 
-.sh4d{
-    text-align: right;
-    font-style: italic;
+.quote {
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.quote span {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.interaction button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #ff00cc;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.interaction button:hover {
+  background: #cc0099;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2a0032;
+  font-size: 0.8rem;
+  color: #aaa;
 }
