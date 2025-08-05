@@ -17,6 +17,12 @@ h1 {
   text-shadow: 0 0 5px #ff00cc;
 }
 
+h2 {
+  font-size: 2rem;
+  color: #ffadef;
+  margin-top: 10px;
+}
+
 .tagline {
   color: #ccc;
   margin-top: 5px;
@@ -93,14 +99,21 @@ video {
   border: 2px solid #ff00cc;
 }
 
+/* Audio player styles */
+audio {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 15px;
+  background: rgba(42, 0, 50, 0.8);
+  padding: 5px;
+  box-shadow: 0 0 10px #ff00cc33;
+}
+
+
 footer {
   text-align: center;
   padding: 20px;
   background: #2a0032;
   font-size: 0.8rem;
   color: #aaa;
-}
-
-.socials {
-  color: #ff00cc;
 }
